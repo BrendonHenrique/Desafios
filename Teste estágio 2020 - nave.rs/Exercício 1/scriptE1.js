@@ -20,3 +20,5 @@ function maiorString(string1, string2){
         return resultado.innerHTML = `A string de maior comprimento é: ${string2.value}`
     }
 }
+
+

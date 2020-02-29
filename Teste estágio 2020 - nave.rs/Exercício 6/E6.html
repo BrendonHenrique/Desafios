@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E6.css">
+    <title>Busca CEP</title>
+</head>
+<body>
+    <header><h1>Busca CEP</h1></header>
+    <section>
+        <div id="informações">
+            <p id="cep">CEP:
+                <input type="number" name="txtcep" id="txtcep"/>
+            </p>
+            <p id="nm">NÚMERO:
+                <input type="number" name="txtnumero" id="txtnumero">
+            </p>
+            <input type="button" id="botao" value="Enviar" onclick="verifica(txtcep.value)">
+        </div>
+        <br>
+        <div>
+            <p id="endereço"></p>
+        </div>
+    </section>
+    <footer>&copy;GiulianeOliveira</footer>
+    <script src="scriptE6.js"></script>
+</body>
+</html>

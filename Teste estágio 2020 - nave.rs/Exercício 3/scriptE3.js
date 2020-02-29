@@ -5,4 +5,4 @@ function imprime(arg1, arg2, arg3, arg4, arg5, arg6){
     console.log(concatena)
 }
 
-imprime("Olá", ",", " este é um ", "exercício", " em javascript", "!") //nomes.toString()
+imprime("Olá", ",", " este é um ", "exercício", " em javascript", "!") 
